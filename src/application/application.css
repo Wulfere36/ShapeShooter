@@ -1,0 +1,29 @@
+
+.fire-button {
+    -fx-background-color: linear-gradient(#ff5400, #be1d00);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 2 15 2 15;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+}
+
+.button {
+    -fx-background-color: 
+        #3c7fb1,
+        linear-gradient(#fafdfe, #e8f5fc),
+        linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 2 15 2 15;
+    -fx-text-fill: black;
+    -fx-font-size: 12px;
+}
+
+.button:hover {
+    -fx-background-color: 
+        white,
+        linear-gradient(#fafdfe, #e8f5fc),
+        linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%);
+}
+
